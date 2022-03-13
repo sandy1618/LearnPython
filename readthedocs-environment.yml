@@ -1,0 +1,17 @@
+name: learnpython
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.7
+  - pandoc
+  - pip>20
+  - nbformat
+  - jupyter_client
+  - ipython
+  - nbconvert
+  - sphinx>=1.5.1
+  - ipykernel
+  - sphinx_rtd_theme
+  - pip:
+    - nbsphinx
