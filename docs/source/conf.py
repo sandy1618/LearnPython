@@ -10,9 +10,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
@@ -47,7 +47,27 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 # html_theme = 'alabaster'
-html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_rtd_theme'
+html_theme = "pydata_sphinx_theme"
+
+html_title = 'Learn Python'
+# html_short_title = 'Learn Python'
+# html_logo = "_static/logo_passion.jpg"
+
+html_theme_options = {
+  "show_toc_level": 1,
+  "show_nav_level": 4,
+  "navbar_end": ["navbar-icon-links.html", "search-field.html"],
+  "search_bar_text": "Search here...",
+  "page_sidebar_items": ["page-toc", "edit-this-page"],
+#   "left_sidebar_end": ["sidebar-ethical-ads"],
+
+
+}
+html_sidebars = {
+    "**": ["search-field.html", "sidebar-nav-bs.html", "sidebar-ethical-ads.html"]
+}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".

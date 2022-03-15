@@ -13,5 +13,8 @@ dependencies:
   - sphinx>=1.5.1
   - ipykernel
   - sphinx_rtd_theme
+  - pandas
+  - numpy
+  - pydata-sphinx-theme
   - pip:
     - nbsphinx

@@ -17,8 +17,12 @@ Check out the :doc:`usage` section for further information, including how to
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
+   Notebooks/Pandas/index
+   Notebooks/BasicPython/index
+
+
+
    
-   notebooks/OutputExamples
