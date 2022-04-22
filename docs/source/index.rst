@@ -11,10 +11,6 @@ and their cookbooks recipes are also presented .
    This project is under active development.
 
 
-Check out the :doc:`usage` section for further information, including how to
-:ref:`install <installation>` the project.
-
-
 
 .. toctree::
    :maxdepth: 1
@@ -22,6 +18,8 @@ Check out the :doc:`usage` section for further information, including how to
 
    Notebooks/Pandas/index
    Notebooks/BasicPython/index
+   Notebooks/AdvancedPython/index
+   Notebooks/Practice_Questions/index
 
 
 
