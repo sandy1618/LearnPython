@@ -15,11 +15,11 @@ and their cookbooks recipes are also presented .
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
-
-   Notebooks/Pandas/index
+   
    Notebooks/BasicPython/index
    Notebooks/AdvancedPython/index
    Notebooks/Practice_Questions/index
+   Notebooks/Pandas/index
 
 
 
