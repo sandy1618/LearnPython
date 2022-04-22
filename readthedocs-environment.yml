@@ -16,6 +16,6 @@ dependencies:
   - pandas
   - numpy
   - pydata-sphinx-theme
-  - sklearn
   - pip:
     - nbsphinx
+    - sklearn
