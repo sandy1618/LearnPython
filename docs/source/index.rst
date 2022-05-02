@@ -1,9 +1,9 @@
 Welcome to Learn Python  !
 ================================================
 
-**LearnPython** is a Python tutorial for beginner. It consists of basic
-Python programming concepts, and cookbooks. A dive into different python libraries 
-and their cookbooks recipes are also presented .
+**LearnPython** is a Python tutorial for beginners.
+It consists of basic Python programming concepts, and cookbooks.
+A dive into different python libraries and their cookbook recipes are also presented.
 
 
 .. note::
